@@ -7,7 +7,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # Unduh file config
-wget -qO /etc/ssh/sshd_config https://raw.githubusercontent.com/amiruldev20/ippanel/main/sshd_configs
+wget -qO /etc/ssh/sshd_config https://raw.githubusercontent.com/sanzydev/ippanel/main/sshd_configs
 systemctl restart sshd
 clear
 
