@@ -22,8 +22,8 @@ banner_file="/etc/motd"
 echo "clear" > "$banner_file"
 echo "============================================" > "$banner_file"
 echo "Welcome to $new_hostname VPS" >> "$banner_file"
-echo "Managed by amiruldev" >> "$banner_file"
-echo "Whatsapp: 085157489446" >> "$banner_file"
+echo "Managed by SanzyDeev" >> "$banner_file"
+echo "Whatsapp: 081276698054" >> "$banner_file"
 echo "============================================" >> "$banner_file"
 
 ip_address=$(curl -Ls http://ipinfo.io/ip)
