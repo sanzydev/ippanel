@@ -22,7 +22,7 @@ banner_file="/etc/motd"
 echo "clear" > "$banner_file"
 echo "============================================" > "$banner_file"
 echo "Welcome to $new_hostname VPS" >> "$banner_file"
-echo "Managed by SanzyDeev" >> "$banner_file"
+echo "Managed by SanzyDev" >> "$banner_file"
 echo "Whatsapp: 081276698054" >> "$banner_file"
 echo "============================================" >> "$banner_file"
 
